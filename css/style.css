@@ -1,0 +1,217 @@
+header{
+    background-color: #212529;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.logo{
+    float: left;
+    margin-top: -9px;
+    cursor: pointer;
+}
+
+.logo h3{
+    color: yellow;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.logo span{
+    color: chocolate;
+}
+
+nav ul{
+    display: flex;
+    justify-content: end;
+    margin: 30px;
+    
+}
+
+nav ul li{
+    list-style: none;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.623);
+}
+
+nav ul li a:hover{
+    color: white;
+    background-color: #424649;
+    padding: 7px 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    border-radius: 2px;
+}
+
+/* BANNER SECTION */
+.banner{
+    padding-top: 85px;
+}
+
+.img-fluid {
+    max-width: 369px;
+    height: 448px;
+    box-shadow: rgba(40, 28, 206, 0.329) 0px 5px 15px;
+}
+
+.col-md-4 {
+flex: 0 0 auto;
+width: auto ;
+}
+.card{
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #212529;
+}
+.card:hover{
+    color: white;
+    background-color: #424649;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.card h6{
+    letter-spacing: 4px;
+    margin-top: 30px;
+    color: white;
+}
+.card h5{
+    margin-top: 20px;
+    color: white;
+
+}
+.card h5 span{
+    color: #FF014F;
+}
+.card p{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.card h4 {
+    color: #FF014F;
+    margin-top: 64px;
+    margin-bottom: 11px;
+    font-size: 23px;
+}
+.card .size{
+    font-size: 13px;
+    font-weight: 500;
+    cursor: default;
+
+}
+.red button{
+    color: white;
+    background-color: #868c92;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* RESUME SECTION */
+
+div .myresume{
+    text-align: center;
+    margin-top: 105px;
+}
+div .myresume h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 63px;
+}
+
+div .myresume h5{
+    color: #FF014F;
+}
+div .myresume h2{}
+
+.col{
+    margin-top: 0;
+}
+.card .tee{
+    color: #FF014F;
+}
+div h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+div .card h5{
+    font-size: 32px;
+}
+button.center {
+    margin-left: 566px;
+    margin-top: 20px;
+    /* color: #FF014F; */
+    background-color: #212529af;
+    border-radius: 6px;
+    padding: 7px;
+    padding-left: 19px;
+    padding-right: 19px;
+    font-weight: 500;
+}
+button.center-1{
+    background-color: #212529af;
+    font-weight: 500;
+    margin-left: 15px;
+
+}
+img{
+    border-radius: 10px;
+}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    margin-top: 30px;
+}
+.wrapper.kard-2{
+    width: 50%;
+    float: left;
+    justify-content: center;
+}
+.kard{
+    width: 50%;
+    float: right;
+    margin-top: 14px;
+}
+.kard-2{
+    width: 50%;
+    margin-left: 18px;
+}
+
+/* FOOTER SECTION */
+footer{
+    background-color: #212529;
+    margin-top: 100px;
+    padding: 0px 0px 0px 0px;
+    height: 352px;
+    
+
+}
+footer h3{
+    color: white;
+    padding-left: 28px;
+}
+footer h4{
+    color: white;
+    text-align: center;
+}
+.mar{
+    width: 268px;
+    text-align: center;
+    margin-top: 71px;
+}
+.mar h3{
+    padding-bottom: 25px;
+}
+.mar ul li{
+    list-style: none;
+}
+.mar ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+}
